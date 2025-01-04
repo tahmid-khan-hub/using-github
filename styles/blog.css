@@ -4,7 +4,7 @@
 }
 
 *{
-    background-image: url('/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass.jpg');
+    background-image: url('./wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass.jpg');
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
