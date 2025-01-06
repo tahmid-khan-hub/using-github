@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        label{
+            display: block;
+            margin-top: 10px;
+        }
+        fieldset{
+            margin-top: 10px;
+        }
+    </style>
+    <link rel="stylesheet" href="/styles/nav.css">
+</head>
+<body>
+    
+    <header>
+        <nav>
+            <ul>
+                <li><a href="my portfolio.html">portfolio</a></li>
+                <li><a href="navigation.html">navigation</a></li>
+                <li><a href="form.html">form </a></li>
+                <li><a href="practice.html">practice</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <form style="border: 2px solid black;">
+                <h2>Form fillup</h2>
+
+            <label for="name"> Name:
+                <input type="text" placeholder="enter name" name="" id="name">
+            </label>
+
+            <label for="em"> Email:
+                <input type="email" name="" id="em">
+            </label>
+
+            <fieldset>
+                <legend>
+                    select a lang
+                </legend>
+
+                <label for="r">
+                    <input type="radio" name="lang" id="r">HTML
+                </label>
+
+                <label for="p">
+                    <input type="radio" name="lang" id="p">CSS
+                </label>
+
+                <label for="t">
+                    <input type="radio" name="lang" id="t">JS
+                </label>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>write anything u want</legend>
+                <textarea name="" id="" rows="10"></textarea>
+            </fieldset>
+
+            <input  style="margin-top: 10px; margin-right: 5px;" type="reset" value="reset">
+            <input type="submit" value="submit">
+            </form>
+
+
+        </section>
+    </main>
+
+    <footer>
+
+    </footer>
+
+</body>
+</html>
